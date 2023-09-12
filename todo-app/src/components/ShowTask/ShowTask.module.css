@@ -1,0 +1,49 @@
+.container{
+    margin: 20px 0;
+}
+
+.container h3{
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #555;
+}
+
+.task{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+.btnGroup{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.btnGroup button{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btnGroup button:nth-child(1){
+    background-color: #4CAF50;
+    color: white;
+}
+
+.btnGroup button:nth-child(2){
+    background-color: #2196F3;
+    color: white;
+}
+
+.btnGroup button:nth-child(3){
+    background-color: #f44336;
+    color: white;
+}

@@ -1,0 +1,26 @@
+.container{
+    margin: 20px 0;
+    display: flex;
+    gap: 20px;
+    align-items: start;
+}
+
+.container input{
+    border: none;
+    outline: none;
+    width: 70%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: rgb(184, 214, 240);
+}
+
+.container button{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+}
